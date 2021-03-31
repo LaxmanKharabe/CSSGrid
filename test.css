@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url("background-1.jpg") no-repeat center center fixed; 
+    background-size: 95em 45em;
+}
+#plainText{
+    margin-left: 140px;
+    margin-top: 48px;
+}
+#plainText h1{
+    color: white;
+}
+#plainText span{
+    border-bottom: 2.5px solid black !important;
+}
+/* Box Styles */
+.row1{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: .7fr 1.5fr 1fr 1fr 1.4fr;
+    column-gap: 40px;
+}
+.col-1{
+    color: white;
+    background: rgba(238, 108, 33, 0.7);
+}
+.col-2{
+    color: blue;
+    background: rgba(33, 238, 221, 0.7);
+}
+
+.col-1, .col-2{
+    border-left: 5px solid blue;
+    padding: 20px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.row2{
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr .6fr 1.5fr 1.5fr 1.5fr;
+}
+.col-3, .col-6, .col-9, .col-12{
+   color: white;
+   background: rgba(48, 48, 170, 0.7);
+   font-weight: bold;
+   font-size: 20px;
+   text-align: center;
+   border-left: 5px solid blue;
+}
+.col-4, .col-7, .col-10, .col-13{
+    border-right: 4px dashed rgb(48, 48, 170);
+}
+.col-4, .col-5{
+   color: rgb(61, 61, 212);
+   background: rgb(255, 255, 255, 0.7);
+   padding: 10px;
+   font-weight: bold;
+   font-size: 15px;
+   text-align: justify;
+}
+.col-7, .col-8, .col-10, .col-11, .col-13, .col-14{
+    color: rgb(61, 61, 212);
+    background: rgb(255, 255, 255, 0.7);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.col-7 span, .col-8 span{
+    font-size: 20px;
+}
+/* Box Styles Ends here */
+
+/* Button Styles */
+.container{
+    margin-top: 5px;
+    width: 80%;
+    padding-right: 20px;
+}
+button{
+    color: rgb(61, 61, 212);
+    font-weight: bold;
+    font-size: 17px;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 10px;
+    border: 2.5px solid rgb(48, 48, 170);
+    float: right;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(48, 48, 170);
+    color: rgb(255, 255, 255, 0.7);
+}
+h5{
+    display: inline;
+    margin-top: 100px;
+    font-weight: bold;
+}
+p span{
+    color: rgba(13, 13, 14, .7);
+}
+p{
+    color: rgba(13, 13, 14, 0.6);
+    margin-left: 240px;
+}
+
+.logoCon1{
+    position: fixed;
+    left: 46em;
+    bottom: 20px;
+}
+#logo1{
+    font-family: 'Franklin Gothic Normal', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(48, 48, 170);
+    font-weight: 10px;
+    font-size: 30px;
+}
+
+.logoCon2{
+    position: fixed;
+    left: 85em;
+    bottom: 30px;
+}
+#logo2{
+    font-weight: normal;
+    color:  rgb(48, 48, 170);
+    font-size: 50px;
+    
+}
